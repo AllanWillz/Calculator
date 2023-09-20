@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./last Calculator.css" />
+  </head>
+  <body>
+    <div class="bigDiv">
+      <div class="innerDiv">
+        <input type="text" id="display" placeholder="0" />
+        <!-- first -->
+        <button class="btn" onclick="turnOn()" style="background-color: brown">
+          AC
+        </button>
+        <button class="btn" onclick="del()">DEL</button>
+        <button class="btn" onclick="square()">&radic;</button>
+        <button class="btn" onclick="screen('/')">&divide;</button>
+        <!-- second -->
+        <button class="btn" onclick="screen(7)">7</button>
+        <button class="btn" onclick="screen(8)">8</button>
+        <button class="btn" onclick="screen(9)">9</button>
+        <button class="btn" onclick="screen('*')">&times;</button>
+
+        <!-- third -->
+        <button class="btn" onclick="screen(4)">4</button>
+        <button class="btn" onclick="screen(5)">5</button>
+        <button class="btn" onclick="screen(6)">6</button>
+        <button class="btn" onclick="screen('-')">&ndash;</button>
+
+        <!-- fourth -->
+        <button class="btn" onclick="screen(1)">1</button>
+        <button class="btn" onclick="screen(2)">2</button>
+        <button class="btn" onclick="screen(3)">3</button>
+        <button class="btn" onclick="screen('+')">&plus;</button>
+
+        <!-- fifth -->
+        <button class="btn" onclick="screen(0)">0</button>
+        <button class="btn" onclick="screen('.')">.</button>
+        <button class="btn" onclick="screen(0o0)">00</button>
+        <button class="btn" onclick="equal()">=</button>
+      </div>
+    </div>
+
+    <script src="./lastCalculator.js" defer></script>
+  </body>
+</html>
